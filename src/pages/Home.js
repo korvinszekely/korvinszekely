@@ -1,9 +1,8 @@
 import '../styles/Home.css'
-import PhotographsInfo from '../data/PhotographsInfo';
 import MusicInfo from '../data/MusicInfo';
-import ArtInfo from '../data/ArtInfo';
 import { useEffect } from 'react';
 import VideosList from '../components/VideosList';
+import { loadImagesFrom } from '../components/loadImagesFrom';
 
 function Home() {
 
@@ -11,13 +10,13 @@ function Home() {
     window.scrollTo(0, 0)
   }, [])
 
-  const Photographs = PhotographsInfo.map((photo, index) =>
+  const Photographs = loadImagesFrom("photography").map((photo) =>
     <div className='image'>
-        <img src={require('../images/photography/' + photo.image)} />
+        <img src={photo} />
     </div>
 )
 
-const Music = MusicInfo.map((music, index) =>
+const Music = MusicInfo.map((music) =>
   <div className='image'>
       <a href={music.link} target="_blank">
       <img src={require('../images/music/' + music.image)} />
@@ -25,9 +24,9 @@ const Music = MusicInfo.map((music, index) =>
   </div>
 )
 
-    const Artworks = ArtInfo.map((art, index) =>
+    const Artworks = loadImagesFrom("artwork").map((art) =>
         <div className='image'>
-            <img src={require('../images/artwork/' + art.image)} />
+            <img src={art} />
         </div>
     )
 

@@ -1,16 +1,15 @@
 import '../styles/Display.css'
 import VideoInfo from '../data/VideoInfo';
-import { useEffect } from 'react';
 
 function youtube_parser(url) {
     var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
     var match = url.match(regExp);
-    return (match && match[7].length == 11) ? match[7] : false;
+    return (match && match[7].length === 11) ? match[7] : false;
 }
 
 function VideosList() {
-    const Videos = VideoInfo.map((vid, index) => {
-        var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+    const Videos = VideoInfo.map((vid) => {
+
         var vidID = youtube_parser(vid.link)
         return (
             <div className='image'>

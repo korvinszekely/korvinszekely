@@ -1,15 +1,15 @@
 import '../styles/Display.css'
-import PhotographsInfo from '../data/PhotographsInfo';
 import { useEffect } from 'react';
+import { loadImagesFrom } from '../components/loadImagesFrom';
 
 function PhotographsPage() {
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])
 
-    const Photographs = PhotographsInfo.map((photo, index) =>
+    const Photographs = loadImagesFrom('photography').map((photo) =>
         <div className='image'>
-            <img src={require('../images/photography/' + photo.image)} />
+            <img src={photo} />
         </div>
     )
 

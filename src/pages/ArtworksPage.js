@@ -1,15 +1,15 @@
 import '../styles/Display.css'
-import ArtInfo from '../data/ArtInfo';
 import { useEffect } from 'react';
+import { loadImagesFrom } from '../components/loadImagesFrom';
 
 function ArtworksPage() {
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
 
-    const Artworks = ArtInfo.map((art, index) =>
+    const Artworks = loadImagesFrom("artwork").map((art) =>
         <div className='image'>
-            <img src={require('../images/artwork/' + art.image)} />
+            <img src={art} />
         </div>
     )
 
