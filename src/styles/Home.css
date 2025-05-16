@@ -6,7 +6,7 @@ div.homeContainer {
 }
 
 div.homeSubContainer {
-    width: 70em;
+    width: 45%;
     display: grid;
     grid-template-columns: auto auto auto;
     row-gap: 1em;
