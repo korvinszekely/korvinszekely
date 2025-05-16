@@ -6,7 +6,6 @@ const MusicInfo = [
     {
         image: '5.jpg',
         link: 'https://open.spotify.com/album/49NBXQ9Uze9hNjbCBFVhJR?si=NkFqSceWTbewh4A4SVWMcQ'
-
     },
 
 ]
