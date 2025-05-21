@@ -8,6 +8,12 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
+  <meta name="title" content="korvin szekely">
+<meta name="description" content="visual artist, photographer, musician">
+<meta name="keywords" content="korvin szekely, korvin, szekely, bill j">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <BrowserRouter>
       <React.StrictMode>
