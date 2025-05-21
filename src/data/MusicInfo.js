@@ -1,10 +1,10 @@
 const MusicInfo = [
     {
-        image: 'rebirth.jpg',
+        image: 'rebirthofficialcover.png',
         link: 'https://open.spotify.com/album/3SILrjRr1sLxyQYcV9hnLS?si=mX0Fwz4pQManwrKHs_VoXg'
     },
     {
-        image: '5.jpg',
+        image: 'cova.png',
         link: 'https://open.spotify.com/album/49NBXQ9Uze9hNjbCBFVhJR?si=NkFqSceWTbewh4A4SVWMcQ'
     },
 
