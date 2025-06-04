@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.4e9ea9db.css",
-    "main.js": "/static/js/main.735220ac.js",
+    "main.js": "/static/js/main.0a343589.js",
     "static/js/453.0a1b13cc.chunk.js": "/static/js/453.0a1b13cc.chunk.js",
+    "static/media/bright2.png": "/static/media/bright2.e398da4081c4d50c913e.png",
+    "static/media/bright1.png": "/static/media/bright1.43edff6aeb4db7f2c767.png",
     "static/media/rebirthofficialcover.png": "/static/media/rebirthofficialcover.a9b2259b555f983f8d67.png",
     "static/media/chan.png": "/static/media/chan.2525da8f1c0b50ba7c3f.png",
     "static/media/jbaby.png": "/static/media/jbaby.8c879a63948cea1e397e.png",
@@ -35,6 +37,7 @@
     "static/media/P5110987.JPG": "/static/media/P5110987.2a2ee7f35289d0f56b14.JPG",
     "static/media/P5110986.JPG": "/static/media/P5110986.fbf76bfaed26c62f50f5.JPG",
     "static/media/P5110964.JPG": "/static/media/P5110964.7977ee059339852e661d.JPG",
+    "static/media/P5291256.JPG": "/static/media/P5291256.6ace1e5ca78cef5c2369.JPG",
     "static/media/P5100845.JPG": "/static/media/P5100845.bf9e8730e0287780d97f.JPG",
     "static/media/P5111024.JPG": "/static/media/P5111024.2952d7581625ab2a2caf.JPG",
     "static/media/P5111007.JPG": "/static/media/P5111007.9b0cc5561d2278f03a4c.JPG",
@@ -66,6 +69,7 @@
     "static/media/P5110981.JPG": "/static/media/P5110981.2aa5a4d01c55104fb7e8.JPG",
     "static/media/P5110989.JPG": "/static/media/P5110989.6ad9b2bcb280abf94857.JPG",
     "static/media/P5110899.JPG": "/static/media/P5110899.6ce2f78fa6d70019d08c.JPG",
+    "static/media/P5291253.JPG": "/static/media/P5291253.4e91bf8cc96a29c92abb.JPG",
     "static/media/P5110988.JPG": "/static/media/P5110988.2b5924aaaffa86cf1539.JPG",
     "static/media/P5110997.JPG": "/static/media/P5110997.6bb2f5f2fb2a68ac268f.JPG",
     "static/media/P5100857.JPG": "/static/media/P5100857.3507e9f4bafa8578f437.JPG",
@@ -162,11 +166,11 @@
     "static/media/Korvin.png": "/static/media/Korvin.2431fbe672612e26aa1d.png",
     "index.html": "/index.html",
     "main.4e9ea9db.css.map": "/static/css/main.4e9ea9db.css.map",
-    "main.735220ac.js.map": "/static/js/main.735220ac.js.map",
+    "main.0a343589.js.map": "/static/js/main.0a343589.js.map",
     "453.0a1b13cc.chunk.js.map": "/static/js/453.0a1b13cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e9ea9db.css",
-    "static/js/main.735220ac.js"
+    "static/js/main.0a343589.js"
   ]
 }
