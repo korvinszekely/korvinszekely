@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4e9ea9db.css",
-    "main.js": "/static/js/main.000f2bfd.js",
+    "main.js": "/static/js/main.4231340e.js",
     "static/js/453.0a1b13cc.chunk.js": "/static/js/453.0a1b13cc.chunk.js",
-    "static/media/bright2.png": "/static/media/bright2.e398da4081c4d50c913e.png",
     "static/media/bright1.png": "/static/media/bright1.43edff6aeb4db7f2c767.png",
     "static/media/rebirthofficialcover.png": "/static/media/rebirthofficialcover.a9b2259b555f983f8d67.png",
     "static/media/chan.png": "/static/media/chan.2525da8f1c0b50ba7c3f.png",
@@ -172,11 +171,11 @@
     "static/media/Korvin.png": "/static/media/Korvin.2431fbe672612e26aa1d.png",
     "index.html": "/index.html",
     "main.4e9ea9db.css.map": "/static/css/main.4e9ea9db.css.map",
-    "main.000f2bfd.js.map": "/static/js/main.000f2bfd.js.map",
+    "main.4231340e.js.map": "/static/js/main.4231340e.js.map",
     "453.0a1b13cc.chunk.js.map": "/static/js/453.0a1b13cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e9ea9db.css",
-    "static/js/main.000f2bfd.js"
+    "static/js/main.4231340e.js"
   ]
 }
